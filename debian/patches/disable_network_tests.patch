@@ -1,0 +1,18 @@
+Description: disable tests that require network connection
+Author: Iftikhar Ahmad <iftikhar.ahmad@canonical.com>
+Forwarded: not-needed
+Last-Update: 2014-09-07
+
+--- a/tests/auto/auto.pro
++++ b/tests/auto/auto.pro
+@@ -20,10 +20,8 @@
+            qxmlname                     \
+            qxmlnamepool                 \
+            qxmlnodemodelindex           \
+-           qxmlquery                    \
+            qxmlresultitems              \
+            qxmlserializer               \
+-           xmlpatterns                  \
+            xmlpatternsdiagnosticsts     \
+            xmlpatternssdk               \
+            xmlpatternsvalidator         \
