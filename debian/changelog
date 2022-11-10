@@ -1,3 +1,9 @@
+qtxmlpatterns-opensource-src (5.15.7-1+dde) unstable; urgency=medium
+
+  * New upstream release (5.15.7).
+
+ -- Duan Ting <duanting@uniontech.com>  Thu, 10 Nov 2022 10:33:22 +0800
+
 qtxmlpatterns-opensource-src (5.15.3-1+dde) stable; urgency=medium
 
   * ['Rebuild  against by  current gcc 11.2']
