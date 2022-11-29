@@ -1,0 +1,25 @@
+package:
+  id: qtxmlpatterns
+  name: qtxmlpatterns
+  kind: lib
+  version: 5.15.7-1+dde
+  description: |
+    qtxmlpatterns
+
+base:
+  id: org.deepin.base
+  version: 23.0.0
+
+depends:
+  - id: qtbase
+    version: 5.15.7-1+dde
+
+source:
+  kind: local
+  patch:
+    - debian/patches/disable_network_tests.patch
+    - debian/patches/tst_xmlpatternsvalidator.patch
+
+build:
+  kind: qmake
+
