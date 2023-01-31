@@ -6,14 +6,14 @@ Uploaders: Deepin Packages Builder <packages@deepin.org>
 Build-Depends: debhelper-compat (= 13),
                dpkg-dev (>= 1.17.14),
                pkg-kde-tools,
-               qml-module-qtquick2 (>= 5.15.7~) <!nocheck>,
-               qtbase5-private-dev (>= 5.15.7~),
-               qtdeclarative5-private-dev (>= 5.15.7~),
+               qml-module-qtquick2 (>= 5.15.8~) <!nocheck>,
+               qtbase5-private-dev (>= 5.15.8~),
+               qtdeclarative5-private-dev (>= 5.15.8~),
                xauth <!nocheck>,
                xvfb <!nocheck>
-Build-Depends-Indep: qdoc-qt5 (>= 5.15.7~) <!nodoc>,
-                     qhelpgenerator-qt5 (>= 5.15.7~) <!nodoc>,
-                     qtattributionsscanner-qt5 (>= 5.15.7~) <!nodoc>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.8~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.8~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.8~) <!nodoc>
 Standards-Version: 4.6.0
 Homepage: https://doc.qt.io/qt-5/qtxmlpatterns-index.html
 
